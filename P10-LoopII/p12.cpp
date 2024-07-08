@@ -10,7 +10,7 @@ int main() {
         for(int j = 0; j < w2.length(); j++) { 
             if (w1[i] == w2[j]) { 
                 commonCount++;
-                w2[j] = '*';
+                w2[j] = '*';  // we assume * cannot be one of the original characters in the word
                 break; 
             }
         }
