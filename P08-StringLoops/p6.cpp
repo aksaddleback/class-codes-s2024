@@ -18,5 +18,8 @@ int main() {
             currentName += str[i];
         }
     }
+    if (currentName[0] < smallestNameSoFar[0]) { 
+        smallestNameSoFar = currentName;
+    }
     cout << smallestNameSoFar << endl;
 }
