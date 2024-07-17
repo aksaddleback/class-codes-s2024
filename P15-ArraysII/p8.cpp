@@ -14,7 +14,7 @@ void play(char t, char b[3][3]) {
     printBoard(b);
     do { 
         cout << "Player " << t << ", "; 
-        cout << "Where would you like to put the piece?\n";
+        cout << "where would you like to put the piece?\n";
         cout << "Enter two numbers between 0 and 2: "; 
         int x, y; 
         cin >> x >> y; 
